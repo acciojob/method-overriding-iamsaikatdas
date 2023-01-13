@@ -8,12 +8,12 @@ public class Main {
 }
     class A{
       public String meth(){
-           return "I am in A's meth";
+           return "Invoking method from class A";
       }
     }
     class B extends A{
       public String meth(){
-        return "I am in B's meth";
+        return "Method is overridden in Extendend class B";
       }
     }
 
